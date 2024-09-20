@@ -1,0 +1,30 @@
+[
+    {
+        "language":"HTML",
+        "level":"Advanced"
+    },
+    {
+        "language":"CSS",
+        "level":"Advanced"
+    },
+    {
+        "language":"JS",
+        "level":"Intermediate"
+    },
+    {
+        "language":"Tailwind",
+        "level":"Intermediate"
+    },
+    {
+        "language":"React",
+        "level":"Advanced"
+    },
+    {
+        "language":"NextJS",
+        "level":"Basic"
+    },
+    {
+        "language":"Typescript",
+        "level":"Basic"
+    }
+]

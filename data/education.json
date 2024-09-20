@@ -1,0 +1,12 @@
+[{
+    "title":"Web developement",
+    "location":"AFPA Amiens",
+    "years":"2019-2020",
+    "language":["HTML","CSS","JS","PHP","MYSQL"]
+},
+{
+    "title":"Front-end JS and React",
+    "location":"Openclassrooms",
+    "years":"2022-2023",
+    "language":["JS","React"]
+}]

@@ -1,0 +1,27 @@
+[{
+    "title":"Kasa",
+    "techno":["NextJS","TypeScript","Tailwind"],
+    "code":"https://github.com/Evolved-beep/Kasa"
+},
+{
+    "title":"SportCee",
+    "techno":["React","Javascript","Tailwind"],
+    "code":"https://github.com/Evolved-beep/SportCee"
+},
+{
+    "title":"Calculatrice App",
+    "techno":["HTML","CSS","Javascript"],
+    "code":"https://github.com/Evolved-beep/Calculatrice"
+},{
+    "title":"BodyGym",
+    "techno":["NextJS","TypeScript","Tailwind"],
+    "code":"https://github.com/Evolved-beep/BodyGym"
+},{
+    "title":"Landing Page",
+    "techno":["HTML","CSS","Javascript"],
+    "code":"https://github.com/Evolved-beep/landing_animated_page"
+},{
+    "title":"Porfolio",
+    "techno":["NextJS","TypeScript","Tailwind"],
+    "code":""
+}]
