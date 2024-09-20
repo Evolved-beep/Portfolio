@@ -7,11 +7,11 @@ interface IQualification {
     location:string
 }
 
-interface IStep {
+interface IQualContainerProps {
     qualification:IQualification[]
 }
 
-const QualificationContent : React.FC<IStep> = ({qualification}) => {
+const QualificationContent : React.FC<IQualContainerProps> = ({qualification}) => {
   return (
     <div className="flex flex-col justify-center items-center w-full">
         <ul className='w-full'>

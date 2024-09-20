@@ -18,7 +18,6 @@ const SkillsCardContainer: React.FC<ISkillContainerProps> = ({skills,title}) => 
             <h3 className='flex justify-center items-center font-bold text-2xl mx-auto'>{title}</h3>
             <ul className='flex flex-col items-center justify-center mr-auto ml-[30px] mt-6 w-6/12 gap-[50px] md:grid md:grid-cols-2 md:grid-rows-3 md:m-0 md:mt-[25px] md:w-full'>
                 {skills.map((content, index) => {
-                    console.log(content)
                     return(
                         <SkillsCard language={content.language} level={content.level} key={index}/>
                     )
