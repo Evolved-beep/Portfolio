@@ -1,18 +1,21 @@
 import React from 'react'
 
 interface IQualification {
-    qualification:[],
     title:string,
     years:string,
-    language:[],
+    language:string[],
     location:string
 }
 
-const QualificationContent = ({qualification}:IQualification) => {
+interface IStep {
+    qualification:IQualification[]
+}
+
+const QualificationContent : React.FC<IStep> = ({qualification}) => {
   return (
     <div className="flex flex-col justify-center items-center w-full">
         <ul className='w-full'>
-            {qualification.map((content:IQualification,index) => {
+            {qualification.map((content,index) => {
                 return(
                         <li className="flex flex-col justify-center items-start my-8 gap-2 font-semibold" key={index}>
                             <h4 className='text-[#cdcdcd]'>{content.title}</h4>
