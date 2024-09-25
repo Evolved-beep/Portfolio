@@ -12,7 +12,7 @@ const HeroDescription = () => {
         I've learned the web developement by my own first, then I've followed two educations for getting degrees.
         Since I'm trying to improve my skills and trying to increase it for being a better developer.
         I always want to learn more and more things because the world of the developement is really wide.</p>
-        <Link href="/">
+        <Link href="/contact">
             <button 
             className='flex justify-center items-center bg-[#CDCDCD] py-5 px-6 text-[#000000] rounded-lg w-60'>Contact me</button>
         </Link>

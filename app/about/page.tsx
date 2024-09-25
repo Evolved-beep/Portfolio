@@ -22,7 +22,7 @@ const About = () => {
           <div className="w-full md:flex md:justify-center md:items-center md:gap-2.5">
             {about.map((content,index) => {
               return(
-                  <AboutCard svg={content.svg} title={content.title} status={content.status} key={index}/>
+                  <AboutCard svg={content.svg} title={content.title} status={content.status} url={content.url} key={index}/>
                 )
               })}
             </div>
@@ -36,7 +36,7 @@ const About = () => {
               a better developer. I always want to learn more and more things
               because the world of the developement is really wide.
             </p>
-            <Link href="/">
+            <Link href='/docs/resume.pdf' download>
               <button className="flex justify-center items-center bg-[#CDCDCD] py-5 px-6 text-[#000000] font-bold rounded-lg w-60">
                 Get my resume
               </button>
@@ -49,7 +49,7 @@ const About = () => {
           <div className="w-full md:flex md:justify-center md:items-center md:gap-2.5">
           {diplomas.map((content,index) => {
             return(
-              <AboutCard svg={content.svg} title={content.title} status={content.years} key={index} />
+              <AboutCard svg={content.svg} title={content.title} status={content.years} url={content.url} key={index} />
             )
           })}
           </div>
