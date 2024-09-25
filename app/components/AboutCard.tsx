@@ -5,7 +5,7 @@ interface IAbout {
     svg:string,
     title:string,
     status:string,
-    url:string | null
+    url:string
 }
 
 const AboutCard = ({svg,title,status, url}:IAbout) => {
